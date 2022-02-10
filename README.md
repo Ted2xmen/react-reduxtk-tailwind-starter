@@ -1,5 +1,5 @@
 # React - Tailwind Starter
-
+React + Tailwind Starter
 
 ## Available Scripts
 
