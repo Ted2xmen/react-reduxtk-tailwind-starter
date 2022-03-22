@@ -1,6 +1,8 @@
-# React - Tailwind Starter
+# React - ReduxToolkit -  Tailwind Starter
 
-React + Tailwind Starter with Prettier-tailwind-plugin
+React, Redux Toolkit, and TailwindCSS Starter 
+
+
 
 ## Sorting Tailwind CSS Classes Automatically with Prettier
 
