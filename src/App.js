@@ -1,14 +1,17 @@
 import "./App.css";
+import Counter from "./components/Counter";
+import Link from "./components/Link";
 
 function App() {
   return (
-    <div className="main-container flex h-screen items-center justify-center">
-      <div className="m-5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-6 text-5xl font-bold">
-        React - Tailwind Starter
+    <div className="mx-24 min-h-screen items-center justify-center pt-24 ">
+      <div className="gradient title m-6 p-12 ">
+        React, Redux Toolkit, Router v6, Tailwind
       </div>
-      <h4 className="mt-19 text-primary">
-        by <a href="https://github.com/Ted2xmen">Ted2xmen</a>
-      </h4>
+      <div className="gradient mx-6 p-6">
+        <Counter />
+      </div>
+      <Link />
     </div>
   );
 }
