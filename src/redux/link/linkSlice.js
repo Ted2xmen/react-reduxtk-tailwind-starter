@@ -7,7 +7,7 @@ export const linkSlice = createSlice({
       {
         name: "Starter Repository",
         color: "decoration-orange-500",
-        url: "https://github.com/Ted2xmen/react-tailwind-starter",
+        url: "https://github.com/Ted2xmen/react-reduxtk-tailwind-starter",
       },
       {
         name: "Redux Toolkit Notlarım (TR)",

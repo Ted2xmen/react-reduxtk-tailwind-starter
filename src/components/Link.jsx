@@ -11,12 +11,11 @@ function Link() {
           href={link.url}
           target="_blank"
           rel="noreferrer"
-          className={`text-xl text-gray-300 underline ${link.color} hover:decoration-indigo-500 `}
-        >
+          className={`text-xl text-gray-300 underline ${link.color} hover:decoration-indigo-500`}>
           {link.name}
         </a>
       ))}
-      <h3>by ted2xmen</h3>
+      <h3><a href="https://github.com/ted2xmen">by Ted2xmen</a></h3>
     </div>
   );
 }
