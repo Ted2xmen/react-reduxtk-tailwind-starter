@@ -1,9 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const linkSlice = createSlice({
-  name: 'link',
+  name: 'links',
   initialState: {
-    links: [
+    li: [
       {
         name: 'Starter Repository',
         color: 'decoration-orange-500',

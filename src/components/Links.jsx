@@ -2,10 +2,10 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 function Link() {
-  const links = useSelector((state) => state.link.links);
+  const li = useSelector((state) => state.links.li);
   return (
     <div className="text-center space-x-4 space-y-4 cursor-pointer gap-4 p-4 text-gray-500">
-      {links.map((link) => (
+      {li.map((link) => (
         <a
           key={link.url}
           href={link.url}

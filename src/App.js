@@ -1,6 +1,6 @@
 import "./App.css";
 import Counter from "./components/Counter";
-import Link from "./components/Link";
+import Links from "./components/Links";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div className="gradient p-12 m-4">
         <Counter />
       </div>
-      <Link />
+      <Links />
     </div>
   )
 }
